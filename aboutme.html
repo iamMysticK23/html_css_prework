@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Navigation Bar-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href="http://www.apple.com" target="_blank">Apple.com</a></li>
+            <li><a href="http://www.google.com" target="_blank">Google Search</a></li>
+            <li><a href="http://www.codingtemple.com" target="_blank">CodingTemple.com</a></li>
+        </ul>
+    </nav>
+    <!--Main section-->
+    <main>
+        <div id="main">
+           
+            <!--Article 1 About Me-->
+            <article class="main-articles">
+                <h1> About Me:</h1>
+                <strong><small>I am a 38 year old who loves tech! I have liked technology 
+                    since I was in elementary school. </small></strong>
+                    <figure>
+                        <img id="main-pictures-left" src="images/IMG_7754.jpg">
+                        <figcaption>
+                            A walk in the park.
+                        </fig>
+                    </figure>
+                    <p>I explained a lot about myself on the <a href="index.html">homepage</a> so be sure to check that out!<br>
+                    When I am not on the computer learning about coding, I love taking pictures and video. I have a YouTube channel that I 
+                    just started called HighwayMysticK Expeditions. I enjoy cinematics and love using photos and videos to tell a story. 
+                    I am still working on this craft and it will take time for me to get where I want to be in regards to being a better
+                    photographer, editor and storyteller.<br>
+                    I believe this is why I am going to do well with software engineering: I enjoy challenges and solving problems. I am also good at 
+                    doing research beyond the scope of reading a book or listening to a lecture - this is how I learned to use video editing software.
+                    </p>
+            </article>
+                      <!--Article 2 image showcase-->
+                      <article class="main-articles">
+                        <h1> More of my photos:</h1>
+                        <strong><small>View some of my work below: </small></strong>
+                        <div id="photo-gallery">
+                            <div class="gallery">
+                                <a target="_blank" href="images/HMKPic-08.jpg">
+                                  <img src="images/HMKPic-08.jpg" alt="Miami Graffiti" width="600" height="400">
+                                </a>
+                                <div class="desc">Miami Graffiti</div>
+                              </div>
+                              
+                              <div class="gallery">
+                                <a target="_blank" href="images/HMKPic-09.jpg">
+                                  <img src="images/HMKPic-09.jpg" alt="FMiami Graffiti" width="600" height="400">
+                                </a>
+                                <div class="desc">Miami Graffiti</div>
+                              </div>
+                              
+                              <div class="gallery">
+                                <a target="_blank" href="images/HMKPic-10.jpg">
+                                  <img src="images/HMKPic-10.jpg" alt="Miami Graffiti" width="600" height="400">
+                                </a>
+                                <div class="desc">Miami Graffiti</div>
+                              </div>
+                              
+                              <div class="gallery">
+                                <a target="_blank" href="images/HMKPic-12.jpg">
+                                  <img src="images/HMKPic-12.jpg" alt="Little Havana" width="600" height="400">
+                                </a>
+                                <div class="desc">Little Havana Visitor's Center</div>
+                              </div>
+                              
+                        </div>
+                    </article>
+            </div>
+                  <!--Right Sidebar-->
+        <div id="sidebar">
+            <article class="sidebar-articles" id="profile">
+                <img id="profile-image" src="images/KenaiPic.jpg">
+                <div id="profile-details">
+                    <h2>Kenai Epps</h2>
+                    <ul>
+                        <li>Cohort Program: Software Engineer (Full Time)</li><br>
+                        <li>Location: SF/Oakland, California</li><br>
+                        <li>Email Address: <a href="mailto:k.epps23@gmail.com"><br>
+                            k.epps23@gmail.com</a></li>
+                    </ul>
+                   
+                </div>
+            </article>
+            <article class="sidebar-articles">
+                <h1>Additional Information</h1>
+                <strong><small>For more information about me, 
+                    contact me by email!</small></strong>
+                <p>I am determined to get where I want to be!<br>
+                    I will be in a good career doing what I love before I turn 40!
+                </p>
+            </article>
+
+            <!--Contact form inside right sidebar-->
+            <article class="sidebar-articles">
+                <h1>Contact Form:</h1>
+                <strong><small>Use the contact form to send me a message. I respond
+                    to all messages within 24-48 hours!
+                    I would love to hear from you!
+                </small></strong>
+                <br>
+                <br>
+                <form action="mailto:k.epps23@gmail.com" method="POST">
+                    <label for="fname">First Name:</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="Your first name">
+                    <br>
+                    <label for="lname">Last Name:</label><br>
+                    <input type="text" id="lname" name="lname" placeholder="Your last name">
+                    <br>
+                    <br>Gender
+                    <br>
+                    <input type="radio" id="male" name="male" value="Male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="female" value="Female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="noanswer" name="noanswer" value="noanswer">
+                    <label for="noanswer">Prefer not to answer</label>
+                    <br>
+                    <br>
+                    <label for="message"><strong>Message</strong></label><br>
+                    <textarea id="message" placeholder="Your message" rows="7"></textarea>
+                    <br>
+                    <input type="submit" value="Submit">
+                </form>
+            </article>
+        </div>
+    </main> 
+    <footer>
+        <hr>
+        <div>
+            &copy 2023 | Kenai Epps: Coding Temple Portfolio
+        </div>
+    </footer>   
+</body>
+</html>
